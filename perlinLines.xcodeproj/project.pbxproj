@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		D01CA41D197093D300721CFC /* perlinLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D01CA41B197093D300721CFC /* perlinLine.cpp */; };
 		D0A8213F1970639100AE2A04 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0A8212E1970639100AE2A04 /* ofxBaseGui.cpp */; };
 		D0A821401970639100AE2A04 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0A821301970639100AE2A04 /* ofxButton.cpp */; };
 		D0A821411970639100AE2A04 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0A821331970639100AE2A04 /* ofxGuiGroup.cpp */; };
@@ -68,6 +69,8 @@
 
 /* Begin PBXFileReference section */
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		D01CA41B197093D300721CFC /* perlinLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = perlinLine.cpp; sourceTree = "<group>"; };
+		D01CA41C197093D300721CFC /* perlinLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perlinLine.h; sourceTree = "<group>"; };
 		D0A8212E1970639100AE2A04 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBaseGui.cpp; sourceTree = "<group>"; };
 		D0A8212F1970639100AE2A04 /* ofxBaseGui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxBaseGui.h; sourceTree = "<group>"; };
 		D0A821301970639100AE2A04 /* ofxButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxButton.cpp; sourceTree = "<group>"; };
@@ -242,6 +245,8 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				D01CA41B197093D300721CFC /* perlinLine.cpp */,
+				D01CA41C197093D300721CFC /* perlinLine.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -345,6 +350,7 @@
 				D0A821421970639100AE2A04 /* ofxLabel.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				D0A8213F1970639100AE2A04 /* ofxBaseGui.cpp in Sources */,
+				D01CA41D197093D300721CFC /* perlinLine.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				D0A821431970639100AE2A04 /* ofxPanel.cpp in Sources */,
 				D0A821401970639100AE2A04 /* ofxButton.cpp in Sources */,

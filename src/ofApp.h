@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxGui.h"
+#include "perlinLine.h"
 
 class ofApp : public ofBaseApp{
 
@@ -21,18 +22,14 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		
         ofEasyCam cam;
-        ofVboMesh mesh;
         ofLight light;
-        
-        float radius;
-        int max;
-        float zfreq;
-        float zamt;
     
     	ofxPanel gui;
     
         ofxFloatSlider mXmulti;
         ofxFloatSlider mYmulti;
         ofxFloatSlider mZmulti;
+    
+        perlinLine mPerlinLine;
     
 };

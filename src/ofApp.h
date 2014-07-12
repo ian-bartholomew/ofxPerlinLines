@@ -29,7 +29,11 @@ class ofApp : public ofBaseApp{
         ofxFloatSlider mXmulti;
         ofxFloatSlider mYmulti;
         ofxFloatSlider mZmulti;
+        ofxFloatSlider mZfreq;
+        ofxFloatSlider mZamt;
+        ofxFloatSlider mLineWidth;
+        ofxFloatSlider mAlpha;
     
-        perlinLine mPerlinLine;
+        vector<perlinLine> mPerlinLine;
     
 };

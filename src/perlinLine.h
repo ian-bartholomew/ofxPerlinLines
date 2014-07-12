@@ -15,16 +15,15 @@ class perlinLine {
         perlinLine();
         ~perlinLine();
     
-        void setup();
-        void update(float x, float y, float z);
+        void setup(float zfreq, float zamt);
+        void update(float x, float y, float z, float zfreq, float zamt);
         void draw();
-    
+        ofVboMesh getMesh();
     
     private:
         ofVboMesh mesh;
     
+        float xSeed, ySeed, zSeed;
         float radius;
         int max;
-        float zfreq;
-        float zamt;
 };

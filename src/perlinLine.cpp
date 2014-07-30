@@ -13,8 +13,8 @@ perlinLine::perlinLine(){};
 perlinLine::~perlinLine(){};
 
 void perlinLine::setup(float zfreq, float zamt){
-    radius = 400;
-    max = 1000;
+    radius = 600;
+    max = 2000;
     
 //    xSeed = ofRandomf(), ofRandomf(), zSeed = ofRandomf();
     xSeed = ofRandom(-2,2), ySeed = ofRandom(-2,2), zSeed = ofRandom(-2,2);

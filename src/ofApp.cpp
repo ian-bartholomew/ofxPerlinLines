@@ -17,6 +17,7 @@ void ofApp::setup(){
 //    ofEnableLighting();
     ofEnableAlphaBlending();
     ofEnableSmoothing();
+    ofEnableAntiAliasing();
     
     for (uint i = 0; i<2; i++){
         perlinLine p;
